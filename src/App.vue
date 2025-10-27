@@ -5,9 +5,9 @@ import AppFooter from "./components/AppFooter.vue";
 </script>
 
 <template>
-  <AppHeader></AppHeader>
-  <HelloWorld msg="ICI NOTRE PAGE D'ACCEUIL" />
-  <AppFooter></AppFooter>
+  <AppHeader/>
+  <router-view/>
+  <AppFooter/>
 </template>
 
 <style scoped>

@@ -1,0 +1,3 @@
+<template>
+    TEST CONTACT
+</template>

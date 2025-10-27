@@ -11,33 +11,47 @@
                 </div>
                 <ul tabindex="-1"
                     class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                        </ul>
+                    <li class="rounded-box">
+                        <router-link to="/" class="hover:text-primary">Accueil</router-link>
                     </li>
-                    <li><a>Item 3</a></li>
+
+                    <li class="rounded-box">
+                        <router-link to="/contact" class="hover:text-primary">Contact</router-link>
+                    </li>
+                    <li class="rounded-box">
+                        <a href="#" class="hover:text-primary">Services</a>
+                    </li>
+                    <li class="rounded-box">
+                        <router-link to="/about" class="hover:text-primary">About</router-link>
+                    </li>
                 </ul>
             </div>
             <a class="btn btn-ghost text-xl">daisyUI</a>
         </div>
         <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-                <li><a>Item 1</a></li>
-                <li>
-                    <details>
-                        <summary>Parent</summary>
-                        <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                        </ul>
-                    </details>
-                </li>
-                <li><a>Item 3</a></li>
-            </ul>
+            <nav class="flex-none hidden lg:flex">
+                <ul class="menu menu-horizontal p-0">
+                    <li class="rounded-box">
+                        <router-link to="/" class="hover:text-primary">Accueil</router-link>
+                    </li>
+
+                    <li class="rounded-box">
+                        <router-link to="/contact" class="hover:text-primary">Contact</router-link>
+                    </li>
+                    <li class="rounded-box">
+                        <a href="#" class="hover:text-primary">Services</a>
+                    </li>
+                    <li class="rounded-box">
+                        <router-link to="/about" class="hover:text-primary">About</router-link>
+                    </li>
+                    <li class="rounded-box">
+                        <router-link to="/TextInt" class="hover:text-primary">Texte Interpolation</router-link>
+                    </li>
+                    <li class="rounded-box">
+                        <router-link to="/ExoInt" class="hover:text-primary">Exo Texte Interpolation</router-link>
+                    </li>
+                </ul>
+            </nav>
         </div>
         <div class="navbar-end">
             <a class="btn">Button</a>
