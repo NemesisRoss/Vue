@@ -52,6 +52,10 @@
                     <td>fonctionTest()</td>
                     <td>{{functionTest()}}</td>
                 </tr>
+                <tr>
+                    <td>is 1 = 1 ?</td>
+                    <td>{{is1(1)}}</td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -70,5 +74,13 @@ const unObjet = ref({"name": "COOL", "tel" : "060503030"});
 function functionTest() {
     const text = ref("Hello World");
     return text;
+}
+
+function is1(a){
+    if(a == 1){
+        return "Cool"
+    }else{ 
+        return "Pas Cool"
+    }
 }
 </script>

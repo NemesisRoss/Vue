@@ -38,6 +38,21 @@ const router = createRouter({
             path: '/ExoInt',
             name: 'ExoInt',
             component: () => import('../views/exo/ExoInterpolation.vue')
+        },
+        {
+            path: '/inlineTemp',
+            name: 'inlineTemp',
+            component: () => import('../views/lesson/inline-templating.vue')
+        },
+        {
+            path: '/attrBind',
+            name: 'attrBind',
+            component: () => import('../views/lesson/attribute-binding.vue')
+        },
+        {
+            path: '/exoBind',
+            name: 'exoBind',
+            component: () => import('../views/exo/ExoBinding.vue')
         }
     ]
 })
