@@ -18,13 +18,14 @@
         </div>
     </div>
 </template>
-S
+
 <script setup lang="js">
 
 const imageUser = 'https://s3.amazonaws.com/medium.cosplay.com/77883/2111288.jpg';
 const nomUser = "Dr.Mario";
 const ageUser = 30;
 const nbRandom = 15456946;
+
 function age10(Age) {
     return Age + 10;
 }

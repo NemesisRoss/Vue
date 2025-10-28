@@ -55,6 +55,9 @@
                         <router-link to="/attrBind" class="hover:text-primary">Apprendre la directive
                             v-bind</router-link>
                     </li>
+                    <li class="rounded-box">
+                        <router-link to="/evntBind" class="hover:text-primary">Event Binding</router-link>
+                    </li>
                     <details class="dropdown">
                         <summary class=" m-1">Exos</summary>
                         <ul class="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
@@ -64,6 +67,9 @@
                             </li>
                             <li class="rounded-box">
                                 <router-link to="/ExoBind" class="hover:text-primary">Exo Binding</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/exoEvntBind" class="hover:text-primary">Exo Event Binding</router-link>
                             </li>
                         </ul>
                     </details>

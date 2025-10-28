@@ -53,6 +53,16 @@ const router = createRouter({
             path: '/exoBind',
             name: 'exoBind',
             component: () => import('../views/exo/ExoBinding.vue')
+        },
+        {
+            path: '/evntBind',
+            name: 'eventBind',
+            component: () => import('../views/lesson/lesson-event-binding.vue')
+        },
+        {
+            path: '/exoEvntBind',
+            name: 'exoEventBind',
+            component: () => import('../views/exo/ExoEventBinding.vue')
         }
     ]
 })
