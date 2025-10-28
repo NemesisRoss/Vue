@@ -63,6 +63,46 @@ const router = createRouter({
             path: '/exoEvntBind',
             name: 'exoEventBind',
             component: () => import('../views/exo/ExoEventBinding.vue')
+        },
+        {
+            path: '/twoWayBind',
+            name: 'twoWayBind',
+            component: () => import('../views/lesson/lesson-two-way-binding.vue')
+        },
+        {
+            path: '/compProp',
+            name: 'compProp',
+            component: () => import('../views/lesson/lesson-computed-properties.vue')
+        },
+        {
+            path: '/watchers',
+            name: 'watchers',
+            component: () => import('../views/lesson/lesson-watchers.vue')
+        },
+        {
+            path: '/dynStyling',
+            name: 'dynStyling',
+            component: () => import('../views/lesson/lesson-dynamic-styling.vue')
+        },
+        {
+            path: '/condiRender',
+            name: 'condiRender',
+            component: () => import('../views/lesson/lesson-conditional-rendering.vue')
+        },
+        {
+            path: '/listRender',
+            name: 'listRender',
+            component: () => import('../views/lesson/lesson-list-rendering.vue')
+        },
+        {
+            path: '/exoWatch',
+            name: 'exoWatch',
+            component: () => import('../views/exo/ExoWatchers.vue')
+        },
+        {
+            path: '/exoDynStyl',
+            name: 'exoDynStyl',
+            component: () => import('../views/exo/ExoDynamicStyling.vue')
         }
     ]
 })

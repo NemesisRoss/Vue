@@ -44,20 +44,43 @@
                     <li class="rounded-box">
                         <router-link to="/about" class="hover:text-primary">About</router-link>
                     </li>
-                    <li class="rounded-box">
-                        <router-link to="/TextInt" class="hover:text-primary">Texte Interpolation</router-link>
-                    </li>
-                    <li class="rounded-box">
-                        <router-link to="/inlineTemp" class="hover:text-primary">Comprendre la Directive
-                            v-html</router-link>
-                    </li>
-                    <li class="rounded-box">
-                        <router-link to="/attrBind" class="hover:text-primary">Apprendre la directive
-                            v-bind</router-link>
-                    </li>
-                    <li class="rounded-box">
-                        <router-link to="/evntBind" class="hover:text-primary">Event Binding</router-link>
-                    </li>
+                    <details class="dropdown">
+                        <summary class=" m-1">Lessons</summary>
+                        <ul class="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                            <li class="rounded-box">
+                                <router-link to="/TextInt" class="hover:text-primary">Texte Interpolation</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/inlineTemp" class="hover:text-primary">Comprendre la Directive
+                                    v-html</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/attrBind" class="hover:text-primary">Apprendre la directive
+                                    v-bind</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/evntBind" class="hover:text-primary">Event Binding</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/twoWayBind" class="hover:text-primary">Two Way Binding</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/compProp" class="hover:text-primary">Les Computed Properties</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/watchers" class="hover:text-primary">Les Watchers</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/dynStyling" class="hover:text-primary">Dynamic Styling</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/condiRender" class="hover:text-primary">Conditional Rendering</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/listRender" class="hover:text-primary">List Rendering</router-link>
+                            </li>
+                        </ul>
+                    </details>
                     <details class="dropdown">
                         <summary class=" m-1">Exos</summary>
                         <ul class="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
@@ -69,7 +92,14 @@
                                 <router-link to="/ExoBind" class="hover:text-primary">Exo Binding</router-link>
                             </li>
                             <li class="rounded-box">
-                                <router-link to="/exoEvntBind" class="hover:text-primary">Exo Event Binding</router-link>
+                                <router-link to="/exoEvntBind" class="hover:text-primary">Exo Event
+                                    Binding</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/exoWatch" class="hover:text-primary">Exo Watchers</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/exoDynStyl" class="hover:text-primary">Exo Dynamic Styling</router-link>
                             </li>
                         </ul>
                     </details>

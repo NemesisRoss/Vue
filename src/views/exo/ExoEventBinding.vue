@@ -63,6 +63,15 @@
             </div>
         </div>
     </div>
+
+    <div class="card card-border bg-base-100 w-96">
+        <div class="card-body items-center text-center">
+            <button @click ="min11" class="btn btn-error"> - </button>
+            le nombre : {{ nb }}
+            <button @click ="plus99" class="btn btn-success"> + </button>
+            <span class="badge badge-info">{{ afficherNameUser() }}</span>
+        </div>
+    </div>
 </template>
 
 <script setup lang="js">
@@ -72,6 +81,7 @@ const nb = ref(0);
 const textKeyUp = ref('');
 const textKeyUp2 = ref('');
 const textEsc = ref('');
+const nameUser = ref('');
 
 function min11(event) {
     nb.value -= 11;
@@ -91,5 +101,14 @@ function keyUp2(event) {
 
 function keyEsc() {
     textEsc.value = textKeyUp2.value;
+}
+
+function afficherNameUser() {
+    console.log('la fonction du name est executée 1 fois');
+    if(nameUser.value === ''){
+        return "User connecté";
+    }else{
+        return "User Offline";
+    }
 }
 </script>
