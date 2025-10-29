@@ -103,6 +103,21 @@ const router = createRouter({
             path: '/exoDynStyl',
             name: 'exoDynStyl',
             component: () => import('../views/exo/ExoDynamicStyling.vue')
+        },
+        {
+            path: '/exoDynStyl2',
+            name: 'exoDynStyl2',
+            component: () => import('../views/exo/exercice-dynamic-styling.vue')
+        },
+        {
+            path: '/tpDynStyl',
+            name: 'tpDynStyl',
+            component: () => import('../views/exo/tp-dynamic-styling.vue')
+        },
+        {
+            path: '/exoListRender',
+            name: 'exoListRender',
+            component: () => import('../views/exo/exercice-list-rendering.vue')
         }
     ]
 })

@@ -101,6 +101,15 @@
                             <li class="rounded-box">
                                 <router-link to="/exoDynStyl" class="hover:text-primary">Exo Dynamic Styling</router-link>
                             </li>
+                            <li class="rounded-box">
+                                <router-link to="/exoDynStyl2" class="hover:text-primary">Exo Dynamic Styling correction</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/tpDynStyl" class="hover:text-primary">TP Dynamic Styling</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/exoListRender" class="hover:text-primary">Exo List Rendering</router-link>
+                            </li>
                         </ul>
                     </details>
                 </ul>
