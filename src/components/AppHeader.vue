@@ -79,6 +79,12 @@
                             <li class="rounded-box">
                                 <router-link to="/listRender" class="hover:text-primary">List Rendering</router-link>
                             </li>
+                            <li class="rounded-box">
+                                <router-link to="/lifeCycle" class="hover:text-primary">Life Cycle</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/props" class="hover:text-primary">Props</router-link>
+                            </li>
                         </ul>
                     </details>
                     <details class="dropdown">
@@ -109,6 +115,15 @@
                             </li>
                             <li class="rounded-box">
                                 <router-link to="/exoListRender" class="hover:text-primary">Exo List Rendering</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/exoLifeCycle" class="hover:text-primary">Exo API lifeCycle</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/corecLifeCycle" class="hover:text-primary">Correction API lifeCycle</router-link>
+                            </li>
+                            <li class="rounded-box">
+                                <router-link to="/exoProps" class="hover:text-primary">Exo Props</router-link>
                             </li>
                         </ul>
                     </details>

@@ -118,6 +118,32 @@ const router = createRouter({
             path: '/exoListRender',
             name: 'exoListRender',
             component: () => import('../views/exo/exercice-list-rendering.vue')
+        },
+        {
+            path: '/lifeCycle',
+            name: 'lifeCycle',
+            component: () => import('../views/lesson/lesson-lifecycle.vue')
+        },
+        {
+            path: '/exoLifeCycle',
+            name: 'exoLifeCycle',
+            component: () => import('../views/exo/exo-API-LifeCycle.vue')
+        },
+        {
+            path: '/corecLifeCycle',
+            name: 'corecLifeCycle',
+            component: () => import('../views/exo/exercice-lifecycle-api.vue')
+        }
+        ,
+        {
+            path: '/props',
+            name: 'props',
+            component: () => import('../views/lesson/lesson-props.vue')
+        },
+        {
+            path: '/exoProps',
+            name: 'exoProps',
+            component: () => import('../views/exo/Exo-Props.vue')
         }
     ]
 })
